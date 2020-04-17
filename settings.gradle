@@ -1,0 +1,3 @@
+rootProject.name='alertview'
+include ':app'
+include ':alert_view_lib'

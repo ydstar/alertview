@@ -9,8 +9,9 @@
 <img src="https://github.com/ydstar/alertview/blob/master/preview/alertView.gif" alt="动图演示效果" width="250px">
 
 
-### 二、导入方式
-Step 1.将JitPack存储库添加到您的构建文件中(项目根目录下build.gradle文件)：
+
+## 二、导入方式
+### 将JitPack存储库添加到您的构建文件中(项目根目录下build.gradle文件)
 ```
 allprojects {
     repositories {
@@ -20,11 +21,10 @@ allprojects {
 }
 ```
 
-Step 2.添加依赖项
-    仅支持AndroidX
-
+### 添加依赖项
+仅支持`AndroidX`
 ```
-	dependencies {
-	        implementation 'com.github.ydstar:alertview:1.0.0'
-	}
+dependencies {
+    implementation 'com.github.ydstar:alertview:1.0.0'
+}
 ```
